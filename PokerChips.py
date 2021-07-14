@@ -1,10 +1,22 @@
-data = [13, 8, 28, 21, 30, 6, 13, 27, 23, 1]
-print(f'{data}  initial')
-average = sum(data) / len(data)
+while True:
 
-if average % 1 != 0:
-    print(f'Average = {average:.2f} is not a whole number\n')
-    exit()
+    numbers = input('Enter a sequence of numbers (comma separated): ').split(',')
+    data = []
+
+    try:
+        for number in numbers:
+            data.append(int(number))
+    except ValueError:
+        print('Please enter correct values')
+
+    print(f'{data}  initial')
+    average = sum(data) / len(data)
+
+    if average % 1 != 0:
+        print(f'Average = {average:.2f} is not a whole number\n')
+        exit()
+    else:
+        break
 
 
 def indices(lst, element):
@@ -59,6 +71,7 @@ while True:
     for crd in fullset:
         if crd[2] < tmp[2]:
             tmp = crd
+
     # move a chip
     index_of_target_max = tmp[0]
     side = tmp[1]
