@@ -1,4 +1,4 @@
-"# advlt_pokerChips" 
+# advlt_pokerChips
 
 Задание на позицию Инженер-программист
 
