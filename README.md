@@ -1,6 +1,6 @@
 # advlt_pokerChips
 
-Задание на позицию Инженер-программист
+Задание:
 
 Jose set up a circular poker table for his friends so that each of the seats at the table has the same number of poker chips.
 But when Jose wasn’t looking, someone rearranged all of the chips so that they are no longer evenly distributed!
